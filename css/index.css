@@ -68,3 +68,14 @@ body {
 .logo_notice > .cont-img > img{
     width: 100%;
 }
+
+@media (min-width:1024px){
+    .logo_vision > .cont-img {
+        width: 280px;
+        height: 280px;
+    }
+    .logo_notice > .cont-img {
+        width: 280px;
+        height: 280px;
+    }
+}

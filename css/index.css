@@ -3,79 +3,50 @@ html {
 }
 body {
     height: 100%;
-
-}
-#inicio {
-    background-position: center;
+    background: url('../images/fondo2.png');
     background-size: cover;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
+}
+.row{
     height: 100%;
 }
-#inicio .row{
+.container-fluid {
     height: 100%;
 }
-.logo_vision {
-    background: url(../images/right.png);
-    background-repeat: no-repeat;
+
+.logo-container {
     width: 100%;
-    background-size:100%;
-    align-items:  center;
-    vertical-align:  middle;
-    display:  flex;
-
+    display: block;
+    height: 50%;
+    align-items: center;
+    display: inline-flex;
 }
 
-.logo_notice {
-    background: url(../images/left.png);
-    background-repeat: no-repeat;
+.logo-left > img {
+    width: 40%;
+}
+.logo-right > img {
+    width: 40%;
+}
+.logo-left {
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.logo-right {
+    width: 40%;
+    justify-content: flex-start;
+}
+
+/* .logo-container {
     width: 100%;
-    background-size:100%;
-    align-items:  center;
-    vertical-align:  middle;
-    display:  flex;
-}
-.logo_vision > .cont-img {
-    width: 50%;
-    margin: 0 auto;
-    width: 180px;
-    height: 180px;
-    background: red;
-    align-items:  center;
-    vertical-align:  middle;
-    display:  flex;
-    border-radius: 50%;
-    padding: 10px;
-}
-.logo_vision > .cont-img > img{
-    width: 100%;
+    display: block;
+    height: 50%;
+    align-items: center;
+    display: inline-flex;
 }
 
-.logo_notice > .cont-img {
-    width: 50%;
-    margin: 0 auto;
-    width: 180px;
-    height: 180px;
-    background: thistle;
-    align-items:  center;
-    vertical-align:  middle;
-    display:  flex;
-    border-radius: 50%;
-    padding: 10px;
-}
 
-.logo_notice > .cont-img > img{
-    width: 100%;
-}
 
-@media (min-width:1024px){
-    .logo_vision > .cont-img {
-        width: 280px;
-        height: 280px;
-    }
-    .logo_notice > .cont-img {
-        width: 280px;
-        height: 280px;
-    }
-}
+.logo-right {
+    width: 20%;
+} */

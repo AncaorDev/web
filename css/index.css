@@ -5,6 +5,7 @@ body {
     height: 100%;
     background: url('../images/fondo2.png');
     background-size: cover;
+    background-position-y: -60px;
 }
 .row{
     height: 100%;
@@ -21,11 +22,15 @@ body {
     display: inline-flex;
 }
 
-.logo-left > img {
-    width: 40%;
+.logo-left > a > img {
+    min-width: 320px;
+    max-width: 100%;
+    padding-right: 20px;
 }
-.logo-right > img {
-    width: 40%;
+.logo-right > a > img {
+    min-width: 320px;
+    max-width: 100%;
+    padding-left: 20px;
 }
 .logo-left {
     width: 40%;
@@ -35,6 +40,19 @@ body {
 .logo-right {
     width: 40%;
     justify-content: flex-start;
+}
+
+@media (min-width:1024px){
+    .logo-left > a > img {
+        min-width: 320px;
+        max-width: 450px;
+        padding-right: 40px;
+    }
+    .logo-right > a > img {
+        min-width: 320px;
+        max-width: 400px;
+        padding-left: 40px;
+    }
 }
 
 /* .logo-container {
